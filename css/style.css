@@ -39,19 +39,19 @@ a:hover{color:blue;}
     /* position: relative; */
     /* margin: 3em auto 2em auto; */
     /* width: 800px; */
-    font-family: Lato, Verdana, Helvetica, sans-serif;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     /* background: #eee; */
   }
   
   strong {
-    font-family: Lato, Verdana, Helvetica, sans-serif;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 15px;
     font-weight:bold;
   }
   
   
   alert {
-    font-family: Lato, Verdana, Helvetica, sans-serif;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #FF0000;
