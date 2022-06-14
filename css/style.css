@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 input,label,textarea,span,ul,li{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -25,41 +25,49 @@ a:visited{color:royalblue;}
 a:hover{color:blue;}
 
 
-    b {
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    }
 
-  /* * {
-    margin: 1pt;
-    padding: 1pt;
-  }
-   */
-  body {
-    /* position: relative; */
-    /* margin: 3em auto 2em auto; */
-    /* width: 800px; */
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    /* background: #eee; */
-  }
-  
-  strong {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight:bold;
-  }
-  
-  
-  alert {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #FF0000;
-  }
+b {
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+}
 
-  pre, code {
-    font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
+h1 {
+    margin: 10pt;
+    text-align: left;
+}
+/* * {
+margin: 1pt;
+padding: 1pt;
+}
+*/
+body {
+/* position: relative; */
+/* margin: 3em auto 2em auto; */
+/* width: 800px; */
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+/* background: #eee; */
+}
+
+em, i {
+	font-style:italic;
+}
+
+strong {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight:bold;
+}
+
+
+alert {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+color: #FF0000;
+}
+
+pre, code {
+font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+margin: 1em 0;
+padding: 0;
+}
