@@ -23,3 +23,43 @@ a:any-link{color: royalblue;}
 a:link{color:royalblue;}
 a:visited{color:royalblue;}
 a:hover{color:blue;}
+
+
+    b {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+  /* * {
+    margin: 1pt;
+    padding: 1pt;
+  }
+   */
+  body {
+    /* position: relative; */
+    /* margin: 3em auto 2em auto; */
+    /* width: 800px; */
+    font-family: Lato, Verdana, Helvetica, sans-serif;
+    /* background: #eee; */
+  }
+  
+  strong {
+    font-family: Lato, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+  }
+  
+  
+  alert {
+    font-family: Lato, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+  }
+
+  pre, code {
+    font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
