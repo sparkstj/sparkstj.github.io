@@ -15,11 +15,14 @@ input,label,textarea,ul,li{
     margin-right: auto;
     vertical-align: middle;
     text-align: left;
-    width: 80%;
-    max-width: 900px;
+    width: 100%;
+    width: 950px;
 }
 
-a {text-decoration:none}
+a {
+    text-decoration:none;
+    font-family:Helvetica;
+}
 a:any-link{color: royalblue;}
 a:link{color:royalblue;}
 a:visited{color:royalblue;}
@@ -51,15 +54,13 @@ em, i {
 }
 
 strong {
-font-family: Helvetica;
-font-size: 15px;
 font-weight:bold;
 }
 
 
 alert {
 font-family: 'Lato';
-font-size: 15px;
+font-size: 16px;
 font-weight: bold;
 color: #FF0000;
 }
