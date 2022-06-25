@@ -10,12 +10,12 @@ input,label,textarea,ul,li{
 }
 
 .container {
-    zoom: 0.8;
+    zoom: 0.9;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
     text-align: left;
-    width: 80%;
+    width: 70%;
 }
 
 a {
