@@ -15,8 +15,7 @@ input,label,textarea,ul,li{
     margin-right: auto;
     vertical-align: middle;
     text-align: left;
-    width: 80%;
-    width: 920px;
+    width: 60%;
 }
 
 a {
@@ -61,7 +60,7 @@ font-weight:bold;
 
 alert {
 font-family: 'Lato';
-font-size: 15px;
+font-size: 1.05em;
 font-weight: bold;
 color: orangered;
 }
