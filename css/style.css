@@ -14,7 +14,8 @@ input,label,textarea,ul,li{
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
-    text-align: left;
+    text-align: middle;
+    width: 980px;
 }
 
 a {
