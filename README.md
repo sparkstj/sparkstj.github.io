@@ -1,3 +1,5 @@
-Homepage of Jing Tan
+## Homepage of Jing Tan
 
-Developed with Bootstrap 4 by Jing Tan.
+Developed with Bootstrap 4 by Jing Tan. 
+
+Feel free to fork or star 🌟 if you found this template useful 🤗.
