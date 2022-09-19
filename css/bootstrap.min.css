@@ -112,7 +112,7 @@ cite{font-style:normal}
 .text-left{text-align:left}
 .text-right{text-align:right}
 .text-center{text-align:center}
- .page-header{padding-bottom:9px;margin:40px 0 20px;border-bottom:1px solid #eee}
+ .page-header{padding-bottom:9px;margin:20px 0 20px;border-bottom:1px solid #eee}
   .list-unstyled{padding-left:0;list-style:none}
 .list-inline{padding-left:0;list-style:none}
 .list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
