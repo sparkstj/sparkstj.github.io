@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jing Tan</title>
+
+    <meta name="author" content="Jing Tan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Jing Tan
+                </p>
+                <p>I'm a Ph.D. student in <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab</a>, <a href="https://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. I also work closely with <a href="https://wutong16.github.io/">Dr. Tong Wu</a>. Before that, I obtained my Master degree from the <a href="https://cs.nju.edu.cn/main.htm">Department of Computer Science and Technology</a>, <a href="https://www.nju.edu.cn/EN/main.htm">Nanjing University</a>, supervised by <a href="http://wanglimin.github.io/">Prof. Limin Wang</a>. I obtained the B.Sc. degree from <a href="https://dii.nju.edu.cn/kym_en/main.htm">Kuang Yaming Honors School</a>, Nanjing University in 2020.
+                </p>
+                <p>
+                  My research focuses on computer vision and graphics, with recent focus on 3D vision and 3D scene generation. I previously worked on action localization and detection in videos.
+                </p>
+                <p>
+                  I'm open to potential collaborations, please feel free to drop me an email if interested.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:jingtan.cuhk@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="info/jingtan_cv.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=BOoXmpwAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/jingtan_/">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/sparkstj/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="info/jingtan.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="info/jingtan2.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+    <tr onmouseout="layerpano3d_stop()" onmouseover="layerpano3d_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='layerpano3d_image'><video  width=100% muted autoplay loop>
+          <source src="images/layerpano3d.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/layerpano3d.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function layerpano3d_start() {
+            document.getElementById('layerpano3d_image').style.opacity = "1";
+          }
+
+          function layerpano3d_stop() {
+            document.getElementById('layerpano3d_image').style.opacity = "0";
+          }
+          layerpano3d_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation</strong>
+        <br>
+        <a href="https://ys-imtech.github.io/">Shuai Yang*</a>,
+        <strong>Jing Tan*</strong>,
+        <a href="https://github.com/kszpxxzmc/">Mengchen Zhang</a>,
+        <a href="https://wutong16.github.io/">Tong Wu</a>,
+        <a href="https://yixuanli98.github.io/">Yixuan Li</a>,
+        <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>,
+        <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
+        <a href="http://dahua.site/">Dahua Lin</a>
+        <br>
+        <em>Arxiv</em>, 2024
+        <br>
+        <a href="https://ys-imtech.github.io/projects/LayerPano3D/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=dXvoFRbHOiw">video</a>
+        /
+        <a href="https://arxiv.org/abs/2408.13252">arXiv</a>
+        <p></p>
+        <p>
+        LayerPano3D generates full-view, explorable panoramic 3D scene from a single text prompt.
+        </p>
+      </td>
+    </tr>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='humanvid_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/humanvid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation</strong>
+        <br>
+        
+        <a href="https://zhenzhiwang.github.io/">Zhenzhi Wang</a>, <a href="https://yixuanli98.github.io/">Yixuan Li</a>, <a href="https://zengyh1900.github.io/">Yanhong Zeng</a >, <a href="#">Youqing Fang</a >, <a href="https://guoyww.github.io/">Yuwei Guo</a >, <a href="#">Wenran Liu</a >, <strong>Jing Tan</strong>, <a href="https://chenkai.site/">Kai Chen</a >, <a href="https://tianfan.info/">Tianfan Xue</a >, <a href="https://daibo.info/">Bo Dai</a >, <a href="http://dahua.site/">Dahua Lin</a >.
+        <br>
+        <em>Arxiv</em>, 2024
+        <br>
+        <a href="https://humanvid.github.io">project page</a > /
+        <a href="https://arxiv.org/abs/2407.17438">arXiv</a > /
+        <a href="https://github.com/zhenzhiwang/HumanVid">code</a >
+        <p></p >
+        <p>We propose camera-controllable human image animation task for generating video clips that are similar to real movie clips. To achieve this, we collect a dataset named HumanVid, and a baseline model combined by Animate Anyone and CameraCtrl. Without any tricks, we show that a simple baseline trained on our dataset could generate movie-level video clips.</p >
+      </td>
+    </tr>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one"><div class="two" id='dmn_image'>
+                  <img src='images/dual_detr.png' width="160"></div></div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>Dual DETRs for Multi-Label Temporal Action Detection</strong>
+        <br>
+        
+        <a href="https://scholar.google.com/citations?user=ydgR3LgAAAAJ&hl=en">Yuhan Zhu</a>, <a href="https://github.com/GuozhenZhang1999">Guozhen Zhang</a>, <strong>Jing Tan</strong>, <a href="https://mcg.nju.edu.cn/member/gswu/en/index.html">Gangshan Wu</a>,<a href="https://wanglimin.github.io/">Limin Wang</a>
+        <br>
+        <em>CVPR</em>, 2024
+        <br>
+        <a href="https://arxiv.org/abs/2404.00653">arXiv</a > /
+          <a href="https://github.com/MCG-NJU/DualDETR">code</a >
+          <p>we propose a new Dual-level query-based TAD framework, namely DualDETR, to detect actions from both instance-level and boundary-level. 
+          </p>
+      </td>
+    </tr>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one"><div class="two" id='dmn_image'>
+                  <img src='images/tp.jpg' width="160"></div></div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>Temporal Perceiver: A General Architecture for Arbitrary Boundary Detection
+        </strong>
+        <br>
+        <strong>Jing Tan</strong>, Yuhong Wang, <a href="https://mcg.nju.edu.cn/member/gswu/en/index.html">Gangshan Wu</a>, <a href="https://wanglimin.github.io/">Limin Wang</a>
+        <br>
+        <em>T-PAMI</em>, 2023
+        <br>
+        <a href="https://arxiv.org/abs/2203.00307">arXiv</a > /
+        <a href="https://github.com/MCG-NJU/TemporalPerceiver">code</a > /
+        <a href="https://zhuanlan.zhihu.com/p/661765304?">blog</a >
+        <p>We present Temporal Perceiver (TP), a general architecture based on Transformer decoders as a unified solution to detect arbitrary generic boundaries.
+        </p>
+      </td>
+    </tr>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one"><div class="two" id='dmn_image'>
+                  <img src='images/pointTAD.jpg' width="160"></div></div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>PointTAD: Multi-Label Temporal Action Detection with Learnable Query Points</strong>
+        <br>
+        
+        <strong>Jing Tan</strong>, Xiaotong Zhao, Xintian Shi, Bin Kang, <a href="https://wanglimin.github.io/">Limin Wang</a>
+        <br>
+        <em>NeurIPS</em>, 2022
+        <br>
+        <a href="https://arxiv.org/abs/2210.11035">arXiv</a > /
+        <a href="https://github.com/MCG-NJU/PointTAD">code</a > /
+        <a href="https://zhuanlan.zhihu.com/p/591495791">blog</a >
+        <p>We propose effective multi-TAD framework by introducing a set of learnable query points to represent the action keyframes.
+        </p>
+      </td>
+    </tr>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one"><div class="two" id='dmn_image'>
+                  <img src='images/rtd.jpg' width="160"></div></div>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>Relaxed Transformer Decoders for Direct Action Proposal Generation
+        </strong>
+        <br>
+        <strong>Jing Tan*</strong>, <a href="https://scholar.google.com.vn/citations?user=jfDzDs0AAAAJ&hl=fr">Jiaqi Tang*</a>, <a href="https://wanglimin.github.io/">Limin Wang</a>, <a href="https://mcg.nju.edu.cn/member/gswu/en/index.html">Gangshan Wu</a>
+        <br>
+        <em>ICCV</em>, 2021
+        <br>
+        <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Tan_Relaxed_Transformer_Decoders_for_Direct_Action_Proposal_Generation_ICCV_2021_paper.pdf">pdf</a > /
+        <a href="https://github.com/MCG-NJU/RTD-Action">code</a > /
+        <a href="https://zhuanlan.zhihu.com/p/363133304">blog</a >
+        <p>The first transformer-based framework for temporal action proposal generation.
+        </p>
+      </td>
+    </tr>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <h2>Professional Services</h2>
+        <p>
+          &bull; Regular Conference reviewer for CVPR, ICCV, ECCV, NeurIPS, ICML. <br>
+          &bull; Journal reviewer for IJCV.<br>
+          &bull; Teaching Assistant for <a href="https://www.ie.cuhk.edu.hk/courses/ierg4998-final-year-project-i/">IERG4998</a> and <a href="https://www.ie.cuhk.edu.hk/courses/ierg4999-final-year-project-ii/">IERG4999</a> in CUHK
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+
+  <br>
+  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=LRJaaRSeozZxc7O-J38e6PcZwfUb6tGC-g9ylnw8GJM&co=98b5ea&cmo=58a363&cmn=e89231&ct=ffffff'></script>
+  <br>
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:center;font-size:small;">
+          Thanks <a href="https://jonbarron.info/">Jon Barron </a> for sharing the source code of this <a href="https://github.com/jonbarron/jonbarron_website">website template</a>.
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
