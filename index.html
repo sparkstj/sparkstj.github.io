@@ -50,6 +50,50 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="imagine360_stop()" onmouseover="imagine360_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='imagine360_image'><video  width=100% muted autoplay loop>
+          <source src="images/imagine360.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/imagine360.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function imagine360_start() {
+            document.getElementById('imagine360_image').style.opacity = "1";
+          }
+
+          function imagine360_stop() {
+            document.getElementById('imagine360_image').style.opacity = "0";
+          }
+          imagine360_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <strong>Imagine360: Immersive 360 Video Generation from Perspective Anchor</strong>
+        <br>
+        <strong>Jing Tan*</strong>,
+        <a href="https://ys-imtech.github.io/">Shuai Yang*</a>,
+        <a href="https://wutong16.github.io/">Tong Wu</a>,
+        <a href="https://github.com/hejingwenhejingwen">Jingwen He</a>,
+        <a href="https://guoyww.github.io/">Yuwei Guo</a>,
+        <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
+        <a href="http://dahua.site/">Dahua Lin</a>
+        <br>
+        <em>Arxiv</em>, 2024 <em>(* equal contribution)</em>
+        <br>
+        <a href="https://ys-imtech.github.io/projects/Imagine360/">project page</a>
+        /
+        <a href="https://youtu.be/gRGo4B41GXY">video</a>
+        /
+        <a href="https://arxiv.org/abs/2408.13252">arXiv</a>
+        <p></p>
+        <p>
+          Imagine360 lifts standard perspective video into 360-degree video, enabling dynamic scene experience from full 360 degrees. 
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="layerpano3d_stop()" onmouseover="layerpano3d_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
